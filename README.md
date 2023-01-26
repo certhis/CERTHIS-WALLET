@@ -16,14 +16,14 @@ $ npm i certhis-wallet
 To use Certhis Wallet, you must first initialize it by importing the necessary libraries and calling the `init` function of `certhis-wallet` by passing in the `Web3`, `CoinbaseWalletSDK`, and `WalletConnectProvider` libraries as parameters.
 
 ```js
-	const Web3 = require("web3");
-    import CoinbaseWalletSDK from "@coinbase/wallet-sdk";
-    import WalletConnectProvider from "@walletconnect/web3-provider";
-    const certhis_wallet = require("certhis-wallet").init(
-      Web3,
-      CoinbaseWalletSDK,
-      WalletConnectProvider
-    );
+const Web3 = require("web3");
+import CoinbaseWalletSDK from "@coinbase/wallet-sdk";
+import WalletConnectProvider from "@walletconnect/web3-provider";
+const certhis_wallet = require("certhis-wallet").init(
+	Web3,
+	CoinbaseWalletSDK,
+	WalletConnectProvider
+);
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ Certhis Wallet allows user to connect to their wallet through email, which gener
 Additionally, there is a function that can be used to display the wallet information and export the private key of the wallet in a pop-up window for email-based connections:
 
 ```js
-    certhis_wallet.walletInfos();
+certhis_wallet.walletInfos();
 ```
 
 There is also a function that detects if the user has any funds and prompts them to add funds to their wallet through a transfer or credit card (this service is coming soon)
@@ -50,12 +50,12 @@ await certhis_wallet.addFundPopup(
                 address,
                 value,
                 chain_id
-            );
+);
 ```
 
 Also, there is an endpoint provided by Certhis Wallet:
 
-    `https://wallet-api.certhis.io/wallet?email=email@exemple.com` 
+`https://wallet-api.certhis.io/wallet?email=email@exemple.com` 
 
 This endpoint allows for generating or retrieving a wallet linked to an email.
 

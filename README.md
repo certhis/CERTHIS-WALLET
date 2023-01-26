@@ -2,6 +2,11 @@
 
 Certhis Wallet is a javascript package that makes it easy to integrate a wallet connection system by providing various login options, including email and using wallets like Metamask, Wallet Connect, and Coinbase Wallet in your DAPP and enables users to interact with their WEB3 wallets.
 
+
+![enter image description here](https://i.ibb.co/MPzr5J3/Untitled-design-27.png)
+
+
+
 ## Installation
 
 To install Certhis Wallet, open your terminal and run the following command:

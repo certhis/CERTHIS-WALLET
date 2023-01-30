@@ -17,7 +17,7 @@ To install Certhis Wallet, open your terminal and run the following command:
 
 
 ```sh
-$ npm i certhis-wallet
+$ npm i @certhis/certhis-wallet
 ```
 
 ## Initialization
@@ -28,7 +28,7 @@ To use Certhis Wallet, you must first initialize it by importing the necessary l
 const Web3 = require("web3");
 import CoinbaseWalletSDK from "@coinbase/wallet-sdk";
 import WalletConnectProvider from "@walletconnect/web3-provider";
-const certhis_wallet = require("certhis-wallet").init(
+const certhis_wallet = require("@certhis/certhis-wallet").init(
 	Web3,
 	CoinbaseWalletSDK,
 	WalletConnectProvider

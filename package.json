@@ -1,5 +1,5 @@
 {
-  "name": "certhis-wallet",
+  "name": "@certhis/certhis-wallet",
   "version": "1.0.0",
   "description": "Certhis Wallet ",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/certhis/CERTHIS-WALLET.git"
   },
   "author": "CERTHIS",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/certhis/CERTHIS-WALLET/issues"
   },
@@ -23,5 +23,13 @@
     "axios": "^1.2.1",
     "crypto-js": "^4.1.1",
     "prettier": "^2.8.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "certhis",
+    "wallet",
+    "web3",
+    "wallet",
+    "email"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@certhis/certhis-wallet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Certhis Wallet ",
   "main": "index.js",
   "directories": {

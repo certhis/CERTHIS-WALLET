@@ -1,4 +1,4 @@
 'use strict';
-const init = require('./lib/init');
+import init from './lib/init.js';
 
 module.exports = { init };

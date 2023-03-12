@@ -1,7 +1,7 @@
 
   
 
-# Certhis Wallet (BETA)
+# Certhis Wallet 
 
   
   

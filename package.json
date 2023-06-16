@@ -21,6 +21,8 @@
   "homepage": "https://github.com/certhis/CERTHIS-WALLET#readme",
   "dependencies": {
     "@coinbase/wallet-sdk": "^3.7.1",
+    "@walletconnect/ethereum-provider": "^2.8.1",
+    "@walletconnect/modal": "^2.4.7",
     "@web3modal/sign-html": "^2.4.6",
     "axios": "^1.3.0",
     "crypto-js": "^4.1.1",

@@ -18,11 +18,9 @@ $ npm i @certhis/certhis-wallet
 
 ## Initialization
 
-To use Certhis Wallet, you must first initialize it by importing the necessary libraries and calling the `init` function of `certhis-wallet` 
+To use Certhis Wallet, you must first initialize it by importing the necessary libraries and calling the `init` function of `certhis-wallet`
 
 ```js
-import { ethers } from "ethers";
-
 const CerthisWallet = require("@certhis/certhis-wallet");
 const certhis_wallet = CerthisWallet.init();
 const Web3 = certhis_wallet.getWeb3();
@@ -82,11 +80,10 @@ force
 ## Signature
 
 ```js
-var wallet = new ethers.providers.Web3Provider(provider);
-
-var signer = await wallet.getSigner();
-
-var message_sign = await signer.signMessage("Message");
+var sign = await provider.request({
+  method: "personal_sign",
+  params: [web3.utils.utf8ToHex("HELLO WORLD!"), current_address],
+});
 ```
 
 ## Wallet by email

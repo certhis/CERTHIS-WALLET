@@ -46,6 +46,15 @@ Additionally, there is a function that can be used to display the wallet informa
 ```js
 certhis_wallet.walletInfos();
 ```
+## Disconnect
+
+This function disconnect the current wallet 
+  
+```js
+certhis_wallet.disconnect();
+```
+
+
 
 ## Popup Add Fund
 

@@ -34,6 +34,7 @@ To display the login window or to retrieve the provider if the user is logged in
 await certhis_wallet.run({
   rpc_id: rpc_id,
   rpc: rpc_link,
+  force_sign: false,
 });
 ```
 

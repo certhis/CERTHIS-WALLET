@@ -47,15 +47,14 @@ Additionally, there is a function that can be used to display the wallet informa
 ```js
 certhis_wallet.walletInfos();
 ```
+
 ## Disconnect
 
-This function disconnect the current wallet 
-  
+This function disconnect the current wallet
+
 ```js
 certhis_wallet.disconnect();
 ```
-
-
 
 ## Popup Add Fund
 
@@ -69,6 +68,9 @@ address,
 value,
 chain_id,
 transactionInformation = {
+transactionInformation.paytweed:{
+  chain_id,collection_address,wallet,nft_id,nb_mint
+},
 transactionInformation.title,
 transactionInformation.description,
 transactionInformation.image,

@@ -94,6 +94,15 @@ var sign = await provider.request({
 });
 ```
 
+## SendOnHash
+
+```js
+await certhis_wallet
+  .SendOnhash({ hash, chain_id })
+  .on("transactionHash", function (hash) {})
+  .on("receipt", async function (receipt) {});
+```
+
 ## Wallet by email
 
 Also, there is an endpoint provided by Certhis Wallet:
@@ -103,3 +112,7 @@ Also, there is an endpoint provided by Certhis Wallet:
 This endpoint allows for generating or retrieving a wallet linked to an email.
 
 In summary, Certhis Wallet is a javascript package that provides an easy-to-use interface for connecting to various types of wallets and includes a unique email-based login feature, as well as functions for displaying wallet information and adding funds.
+
+```
+
+```

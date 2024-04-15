@@ -35,6 +35,28 @@ await certhis_wallet.run({
   rpc_id: rpc_id,
   rpc: rpc_link,
   force_sign: false,
+
+
+  //custom connexion (optional)
+  active_custom: false, //active a custom connexion
+  connect_btn: "#connect_btn", //custom_form_btn
+  email_input: "#email_input", //custom_form_email
+  error_message: "#error_message", //custom_form_error,
+  success_function_email: async function (success) {
+    //email valid
+  },
+  error_function_email: async function (error) {
+    //email invalid
+  },
+  input_code: ".code_input", //5 code input,
+  code_btn: ".valid_code", //valid_code,
+  resend_code: ".resend_code", //resend_code,
+  success_function_code: async function (success) {
+    //code valid
+  },
+  error_function_code: async function (error) {
+    //code invalid
+  },
 });
 ```
 

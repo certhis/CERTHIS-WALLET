@@ -35,6 +35,7 @@ await certhis_wallet.run({
   rpc_id: rpc_id,
   rpc: rpc_link,
   force_sign: false,
+  notif: true, //notif user of new wallet
 
 
   //custom connexion (optional)
@@ -51,6 +52,7 @@ await certhis_wallet.run({
   input_code: ".code_input", //5 code input,
   code_btn: ".valid_code", //valid_code,
   resend_code: ".resend_code", //resend_code,
+  error_message_code: ".error_message_code", //error_message_code,
   success_function_code: async function (success) {
     //code valid
   },

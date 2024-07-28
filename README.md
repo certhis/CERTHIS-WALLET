@@ -44,6 +44,7 @@ await certhis_wallet.run({
   connect_btn: "#connect_btn", //custom_form_btn
   email_input: "#email_input", //custom_form_email
   error_message: "#error_message", //custom_form_error,
+  google: "#google", //google connexion url
   success_function_email: async function (success) {
     //email valid
   },

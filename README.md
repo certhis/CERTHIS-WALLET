@@ -38,7 +38,7 @@ await certhis_wallet.run({
   notif: true, //notif user of new wallet
 
   auto_logout: false, //auto logout
-
+  store_key: false, //store key in local storage and prevent the user to sign out with multiple session
   //custom connexion (optional)
   active_custom: false, //active a custom connexion
   connect_btn: "#connect_btn", //custom_form_btn
